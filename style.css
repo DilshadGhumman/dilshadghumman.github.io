@@ -1,1 +1,131 @@
 
+/* style="color: rgb(0, 0, 0); opacity: 0.87;" */
+
+body {
+    margin: 0;
+    font-size: 18px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/************File-section***************/
+
+.file-sec {
+    text-align: center;
+    padding: 0px 7px 11px;
+}
+
+.file-sec .file-item {
+    padding: 40px 25px 6px;
+}
+
+.file-sec .file-item .fileName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 6px;
+    line-height: 1.3;
+    word-break: break-word;
+}
+
+.file-sec .file-item .fileName a {
+    font-weight: normal;
+    text-decoration: none;
+    background-color: rgb(7, 193, 96);
+    padding: 10px 70px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 22px;
+}
+
+img {
+    width: 62px;
+    height: 79px;
+    margin: 0px auto;
+    min-width: 100px;
+    min-height: 130px;
+}
+
+.file-item .fileName .fileSize {
+    color: rgb(0, 0, 0);
+    opacity: 0.3;
+    margin-top: 15px;
+}
+
+/************Text-section*************/
+
+.text {
+    padding: 15px 15px 0;
+}
+
+.text {
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 1.36533333rem;
+    padding: 10px;
+    color: #617891;
+    height: 1.49333333rem;
+    border-radius: 20px;
+    border: .04266667rem solid hsla(210, 8%, 51%, .13);
+    background-color: hsla(0, 0%, 100%, .05);
+    margin: 45px 0px;
+}
+
+a.footer_item {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #617891;
+    width: 95px;
+    border-radius: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.footer .share_item {
+    border-left: 1px solid #617891;
+    margin-left: 8px;
+}
+
+.footer_link {
+    font-size: 55px;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.footer_link a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #999;
+    font-size: 15px;
+}
+
+.footer_link .item {
+    margin-left: 24px;
+    color: rgb(97, 120, 145);
+}
+
+footer .report_item {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: #999;
+    margin-top: 20px;
+}
